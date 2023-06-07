@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#97425F">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E88AAA"
+        android:text="SELECT DATE:"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E88AAA"
+        android:text="SELECT CATERGORY:"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#e88aaa"
+        android:text="TIMESHEET"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E88AAA"
+        android:text="NAME OF PROJECT TIMESHEET:"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="204dp"
+        android:layout_height="91dp"
+        android:background="#E88AAA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="191dp"
+        tools:layout_editor_absoluteY="553dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
+        android:layout_width="185dp"
+        android:layout_height="30dp"
+        android:background="#E88AAA"
+        android:text="Add Attachment"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="818dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E88AAA"
+        android:text="START TIME"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="116dp"
+        android:layout_height="41dp"
+        android:text="COMPLETE"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="830dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E88AAA"
+        android:text="FINISH TIME"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <EditText
+        android:id="@+id/editTextTime3"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:background="#E88AAA"
+        android:ems="10"
+        android:inputType="time"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E88AAA"
+        android:text="MINIMUM GOALS"
+        tools:layout_editor_absoluteX="64dp"
+        tools:layout_editor_absoluteY="670dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="165dp"
+        android:layout_height="70dp"
+        android:background="#E88AAA"
+        android:backgroundTint="#E88AAA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="224dp"
+        tools:layout_editor_absoluteY="717dp" />
+
+    <EditText
+        android:id="@+id/editTextTime2"
+        android:layout_width="168dp"
+        android:layout_height="31dp"
+        android:background="#E88AAA"
+        android:ems="10"
+        android:inputType="time"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E88AAA"
+        android:text="MAXIMUM GOALS"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="670dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="165dp"
+        android:layout_height="68dp"
+        android:background="#E88AAA"
+        android:backgroundTint="#E88AAA"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="16sp"
+        tools:layout_editor_absoluteX="32dp"
+        tools:layout_editor_absoluteY="717dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#E88AAA"
+        android:text="DESCRIPTION:"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="566dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="146dp"
+        android:layout_height="25dp"
+        android:background="#e88aaa"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        tools:layout_editor_absoluteX="257dp"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <RadioGroup
+        android:layout_width="164dp"
+        android:layout_height="100dp"
+        android:background="#e88aaa"
+        tools:layout_editor_absoluteX="239dp"
+        tools:layout_editor_absoluteY="175dp" />
+
+    <CalendarView
+        android:id="@+id/calendarView2"
+        android:layout_width="164dp"
+        android:layout_height="135dp"
+        android:background="#e88aaa"
+        tools:layout_editor_absoluteX="236dp"
+        tools:layout_editor_absoluteY="294dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
